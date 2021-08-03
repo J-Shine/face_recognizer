@@ -26,7 +26,7 @@ Third, try to recognize each face images of the test set by getting cosine simla
 
 Achieved only 38% recognition rate by using PCA.<b><br><br>
 
-<img width="770" alt="Test Result 2" src="https://user-images.githubusercontent.com/61873510/127994846-f627fd5d-a141-4934-9f47-7529e046ebb8.png">
+<img width="670" alt="Test Result 2" src="https://user-images.githubusercontent.com/61873510/127994846-f627fd5d-a141-4934-9f47-7529e046ebb8.png">
 
 Achieved 0% recognition rate when laughing image is given.<br><br>
 
