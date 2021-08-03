@@ -1,4 +1,5 @@
 # face_recognizer
+This project creates face recognizer by finding unique points using principal component analysis.
 
 ## Full Pipeline
 
