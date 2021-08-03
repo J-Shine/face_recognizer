@@ -11,13 +11,13 @@
 ```Unique face points```: points with cosine similarity 1.0.<br><br>
 ## Steps
 <img width="670" alt="Step one" src="https://user-images.githubusercontent.com/61873510/127992770-385dff8b-1c9f-4655-9a31-4a6e684e7d96.png">
-**First**, extract eigenfaces using PCA and pick 1024 most weighted eigenfaces which reconstruct images perfectly when seen with the eyes.<br><br><br>
+First, extract eigenfaces using PCA and pick 1024 most weighted eigenfaces which reconstruct images perfectly when seen with the eyes.<br><br><br>
 
 <img width="670" alt="Step Two" src="https://user-images.githubusercontent.com/61873510/127992788-7ed691b1-7107-4b2f-9c16-1cf0ecbdc4d6.png">
-**Second**, get cosine similarities on the extracted eigen faces on the first step and the vaildation set. Choose points which has 1.0 score on cosine similarity.<br><br><br>
+Second, get cosine similarities on the extracted eigen faces on the first step and the vaildation set. Choose points which has 1.0 score on cosine similarity.<br><br><br>
 
 <img width="670" alt="Step Three" src="https://user-images.githubusercontent.com/61873510/127992800-cb31112c-229a-46d0-a125-9c7afb4ac5ff.png">
-**Third**, try to recognize each face images of the test set by getting cosine simlarity of unique points and the test set.<br><br><br>
+Third, try to recognize each face images of the test set by getting cosine simlarity of unique points and the test set.<br><br><br>
 
 ## Result
 
@@ -25,4 +25,3 @@
 
 ```Result```: 38% recognition rate.
 
-<img width="670" alt="Step Three" src="https://user-images.githubusercontent.com/61873510/127992800-cb31112c-229a-46d0-a125-9c7afb4ac5ff.png">
